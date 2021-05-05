@@ -3,7 +3,7 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (74)
+## Code snippets (73)
 
 * 2020-12-01: <b>Edit Screen:</b> Enable/Disable all Objects [→ view](codelib/edit_screen_disable_all_objects)
 
@@ -28,8 +28,6 @@
 * 2020-08-25: <b>UX:</b> Transform the Search Field into a Type Search [→ view](codelib/ux_improve_search_field)
 
 * 2020-08-22: <b>JavaScript:</b> Sanitize a filename [→ view](codelib/javascript_sanitize_filename)
-
-* 2020-08-22: <b>Select Object:</b> Refresh on Button Click [→ view](codelib/object_select_refresh)
 
 * 2020-08-11: <b>Edit Screen:</b> Return to the Browse Screen after an inactivity timeout period [→ view](codelib/edit_return_to_browse_after_timeout)
 
