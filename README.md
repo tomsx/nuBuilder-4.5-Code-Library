@@ -3,7 +3,7 @@
 #### [https://www.nubuilder.com](nubuilder.com)
 
 
-## Code snippets (85)
+## Code snippets (74)
 
 * 2020-12-01: <b>Edit Screen:</b> Enable/Disable all Objects [→ view](codelib/edit_screen_disable_all_objects)
 
@@ -38,8 +38,6 @@
 * 2020-08-10: <b>Globeadmin:</b> Create a Backup of your nuBuilder Database.  [→ view](codelib/globeadmin_create_backup)
 
 * 2020-08-09: <b>Globeadmin:</b> Delete a Form with its associated data.  [→ view](codelib/globeadmin_delete_form_and_data)
-
-* 2020-08-09: <b>Globeadmin Helper:</b> Display the Data Type of a Database Column next to the Object ID. [→ view](codelib/globeadmin_display_data_type)
 
 * 2020-08-04: <b>Edit Screen:</b> Upload an Image and Display it [→ view](codelib/edit_upload_display_image)
 
@@ -77,8 +75,6 @@
 
 * 2020-06-10: <b>Select Object:</b> Change the Background Color of the selected Option [→ view](codelib/object_select_change_color)
 
-* 2020-06-07: <b>Globeadmin Helper:</b> An easy way to set the Column Widths in a Browse Screen [→ view](codelib/globeadmin_set_column_widths)
-
 * 2020-06-07: <b>Edit Screen:</b> Show Logging Activity [→ view](codelib/edit_show_logging_activity)
 
 * 2020-06-05: <b>Third Party:</b> How to show a gauge chart? [→ view](codelib/third_party_gauge_chart)
@@ -90,10 +86,6 @@
 * 2020-05-28: <b>Third Party:</b> jQuery UI Timepicker [→ view](codelib/third_party_timepicker)
 
 * 2020-05-28: <b>Calculation:</b> Duration between two Times [→ view](codelib/time_calculation_time_difference)
-
-* 2020-05-27: <b>Object:</b> How to make the Formula field editable [→ view](codelib/object_calc_formula_not_readonly)
-
-* 2020-05-24: <b>Globeadmin:</b> Add a Refresh Button [→ view](codelib/globeadmin_add_refresh_button)
 
 * 2020-05-24: <b>Third Party:</b> Using Google Translate to translate text [→ view](codelib/third_party_google_translate)
 
@@ -117,10 +109,6 @@
 
 * 2020-05-16: <b>Object:</b> Use a HTML5 Datalist Element (Autocomplete Feature) [→ view](codelib/object_create_datalist)
 
-* 2020-05-16: <b>Globeadmin:</b> Add a Quick Access Menu [→ view](codelib/globeadmin_quick_access_menu)
-
-* 2020-05-16: <b>UX: </b> Set individual tab titles [→ view](codelib/usability_set_tab_titles)
-
 * 2020-05-15: <b>Subform:</b> Disable row sorting [→ view](codelib/subform_disable_sorting)
 
 * 2020-05-15: <b>Subform:</b> Copy data to clipboard [→ view](codelib/subform_copy_to_clipboard)
@@ -133,15 +121,11 @@
 
 * 2020-05-14: <b>Edit Screen:</b> Return to another form after saving [→ view](codelib/edit_goto_previous_breadcrumb)
 
-* 2020-05-14: <b>Browse Screen:</b> Multi-line column headers [→ view](codelib/browse_multiline_title)
-
 * 2020-05-11: <b>Object:</b> Visually group related objects [→ view](codelib/object_visually_group)
 
 * 2020-05-08: <b>Object:</b> Conditionally Change its Color [→ view](codelib/object_change_color)
 
-* 2020-05-06: <b>Browse Screen:</b> </b> Hide a Column [→ view](codelib/browse_hide_column)
-
-* 2020-05-06: <b>Display Object:</b></b>  Refresh on button click [→ view](codelib/display_object_refresh)
+* 2020-05-06: <b>Browse Screen:</b> </b> Hide/Resize a Column [→ view](codelib/browse_hide_column)
 
 * 2020-04-27: <b>Subform:</b> Add Clone Buttons to Rows [→ view](codelib/subform_add_clone_button)
 
@@ -155,17 +139,11 @@
 
 * 2020-04-10: <b>Browse Screen:</b> Add Icons in front of text [→ view](codelib/browse_add_icon)
 
-* 2020-04-09: <b>Browse Screen:</b> Improve navigator [→ view](codelib/browse_improve_navigator)
-
-* 2020-02-25: <b>Browse Screen:</b> Show pagination info [→ view](codelib/browse_show_pagination_info)
-
 * 2020-01-10: <b>Browse Screen:</b> Make Boolean Fields Show Check Marks [→ view](codelib/browse_show_check_marks)
 
 * 2020-01-10: <b>Edit Screen:</b> Display Labels on Top of Objects [→ view](codelib/labels_display_on_top)
 
 * 2020-01-10: <b>Edit Screen:</b> Display the Number of Records on a Button [→ view](codelib/button_display_number_of_records)
-
-* 2020-01-10: <b>UX:</b> Enable the Browser’s Back Button [→ view](codelib/enable_back_button)
 
 * 2019-11-24: <b>Globeadmin Helper:</b> Quickly view an Object ID [→ view](codelib/globeadmin_view_object_id)
 
