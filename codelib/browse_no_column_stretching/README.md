@@ -18,25 +18,10 @@ Result: The columns are more compacted:
 </p>
 
 
-If you want to disable the column auto resizing globally (and also for all other nuBuilder Browse Screens),
-
-☛  add this JavaScript in the Header (❓ [Home ► Setup](/common/setup_header.gif)). Click Save and log in again.
+If you want to disable the column auto resizing globally (and also for all other nuBuilder Browse Screens), modify nuconfig.php and set this option to false.
 
   
 ```javascript
-// Fix: Do not stretch columns to full width
-function nuResizeBrowseColumnsFix() {
-    if (nuDocumentID == parent.nuDocumentID) {
-		// do nothing
-    } else {
-        // call original message   
-        _nuResizeBrowseColumns();
-    }
-}
-
-var _nuResizeBrowseColumns = nuResizeBrowseColumns; 
-var nuResizeBrowseColumns = function() {
-	nuResizeBrowseColumnsFix();
-}
+nuUXOptions['nuAutosizeBrowseColumns']	= false;
  ```
 
