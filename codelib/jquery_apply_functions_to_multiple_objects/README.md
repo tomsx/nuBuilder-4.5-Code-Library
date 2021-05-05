@@ -1,37 +1,7 @@
 ### jQuery: Applying nuBuilder functions to multiple objects
 
 How can we apply nuHide(), nuShow(), nuDisable(), nuEnable() etc. to multiple objects?
-These function take just one argument / object ID.
 
-We can use jQuery.fn.extend to extend the jQuery prototype ($.fn) object to provide new custom methods that can be chained to the jQuery() function.
-
-☛  Add this JavaScript to the Header (❓ [Home ► Setup](/codelib/common/setup_header.gif)). Click Save and log in again.
-
-```javascript
-jQuery.fn.extend({
-  nuEnable: function() {
-    return this.each(function() {
-      nuEnable(this.id);
-    });
-  },
-  nuDisable: function() {
-    return this.each(function() {
-      nuDisable(this.id);
-    });
-  },
-  nuShow: function() {
-    return this.each(function() {
-        nuShow(this.id);
-    });
-  }, 
-  nuHide: function() {
-    return this.each(function() {
-        nuHide(this.id);
-    });
-  }  
-});
-```
-### Usage
 
 #### ✪ Example 1: Disable all text fields
 ```javascript
