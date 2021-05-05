@@ -1,27 +1,18 @@
 ### Input: Use a Button to Paste text from the Clipboard
 
-This snippet fetches the text from the clipboard and pastes it into an input field with the Object ID “my_input”.
+The function nuPasteText() fetches the text from the clipboard and pastes it into an input field with the Object ID “my_input”.
 
 <p align="left">
   <img src="screenshots/button_paste_to_input.gif" >
 </p>
 
 
+
+To try out the following example, add a Button Object to your form:
+
 ☛  Add this code to your form’s custom code field.
 
 ❓ [How to add Custom Code](/codelib/common/form_add_custom_code_javascript.gif)
-
-```javascript
-function pasteText(t) {
-
-    navigator.clipboard.readText()
-        .then(text => {
-            $('#' + t).val(text);
-        });
-}
-```
-
-To try out the following example, add a Button Object to your form:
 
 <p align="left">
   <img src="screenshots/btn_paste.png" >
@@ -29,7 +20,7 @@ To try out the following example, add a Button Object to your form:
 
 In the *Custom Code* tab, add an onclick event:
 
-☛  Replace *my_input* with your Object ID.
+☛  Replace *my_input* with your Object ID. (Use nuPasteText() in nuBuilder 4.5)
 
 <p align="left">
   <img src="screenshots/btn_paste_custom_code.png" >
