@@ -1,57 +1,16 @@
 ### Positioning labels above objects
 
-This is especially useful when the caption is a little longer and it would take up too much space horizontally.
+Use the function nuLabelOnTop() to place a Label on top of its object.
+This is especially useful when the caption gets a little longer and it would take up too much space horizontally.
 
 <p align="left">
   <img src="screenshots/labels_on_top.gif">
 </p>
 
-☛</strong>  Add this JavaScript to your form’s Custom Code field (It's already included in nuBuilder v4.5)</p>
+
+☛</strong>  Add the JavaScript to your form’s Custom Code field</p>
 
 ❓ [How to add Custom Code](/codelib/common/form_add_custom_code_javascript.gif)
-
-```javascript
-/**
- * Position a label at the top of its object
- *
- * @param  {array}   f     - Array of object IDs to include
- * @param  {array}   e     - Array of object IDs to exclude
- */
-function nuLabelOnTop(f, e) {
-
-    for (var i = 0; i < f.length; i++) {
-        if (jQuery.inArray(f[i], e) == -1) {
-
-            $('#' + 'label_' + f[i]).css({
-                   'top': parseInt($('#'+f[i]).css("top")) - 18
-                , 'left': parseInt($('#'+f[i]).css("left"))
-                , 'text-align': 'left'
-            })
-        }
-    }
-}
-
-// Add a function called nuLabelOnTop to $.fn and it will be available just like any other jQuery object method
-
-/**
- *
- * @param   {int}   [offsetTop]     - Left offset to the object in pixels
- * @param   {int}   [offsetLeft]    - Left offset to the object in pixels
- */
-
-jQuery.fn.nuLabelOnTop = function (offsetTop = -18, offsetLeft = 0) {
-
-    return this.each(function () {
-        $('#' + 'label_' + this.id).css({
-            'top': parseInt($(this).css("top")) + offsetTop
-            , 'left': parseInt($(this).css("left")) + offsetLeft
-            , 'text-align': 'left'
-        })
-    });
-
-};
-
-```
 
 #### ✪ Example 1: 
 
